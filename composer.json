@@ -1,8 +1,8 @@
 {
-  "name": "magein/plugs",
-  "description": "php常用工具",
+  "name": "magein/plugins",
+  "description": "php常用类",
   "type": "library",
-  "homepage": "https://github.com/magein/db",
+  "homepage": "https://github.com/magein/plugins",
   "license": "Apache-2.0",
   "authors": [
     {
