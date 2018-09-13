@@ -56,13 +56,13 @@
     下划线、驼峰、帕斯卡名称规则相互转化
      
     //转化成驼峰
-    (new Variable)->transToCamelCase();
+    (new Variable())->transToCamelCase();
      
     // 转化成帕斯卡
-    (new Variable)->transToPascal();
+    (new Variable())->transToPascal();
      
     // 转化成下划线
-    (new Variable)->transToUnderline();
+    (new Variable())->transToUnderline();
     
 #### Pinyin
     
