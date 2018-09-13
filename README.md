@@ -4,19 +4,17 @@
      
  	* Request 接受http参数
    
+ 2.  mixed 混合类
  
- 
- 2.   mixed 混合类
+  	 * ArrayList 二维数组处理类
 
-  	* ArrayList 二维数组处理类
-
-  	* BinaryScene 二进制场景（如记录多选并且作为筛选）
+  	 * BinaryScene 二进制场景（如记录多选并且作为筛选）
              
-  	* File 文件搜索匹配，复制，移动
+  	 * File 文件搜索匹配，复制，移动
   	           
-  	* Pinyin 汉字转化为拼音（常用汉字，精切匹配可以使用overtrue/pinyin）
+  	 * Pinyin 汉字转化为拼音（常用汉字，精切匹配可以使用overtrue/pinyin）
              
-  	* Variable 驼峰、下划线、帕斯卡命名相互转化
+  	 * Variable 驼峰、下划线、帕斯卡命名相互转化
 
 #### Request
 
@@ -74,8 +72,8 @@
     
 #### BinaryScene
 
-    二进制场景，用于权限或者多选等业务场景，场景值需要遵循 1 2 4 8 16 32等规则
+   > 二进制场景，用于权限或者多选等业务场景，场景值需要遵循 1 2 4 8 16 32等规则
     
 #### ArrayList
 
-    请参考：array_list_demo.php
+   > 请参考：array_list_demo.php
