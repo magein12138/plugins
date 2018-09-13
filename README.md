@@ -18,11 +18,11 @@
 
 #### Request
 
-	 Request::instance()->param($name,$default,$filter); 
+	 (new Request())->param($name,$default,$filter); 
 	
-	 Request::instance()->post($name,$default,$filter); 
+	 (new Request())->post($name,$default,$filter); 
 	      
-	 Request::instance()->get($name,$default,$filter); 
+	 (new Request())->get($name,$default,$filter); 
      
      第一个参数：要接收的值，不传递返回所有，没有设置返回null或者默认值
      
@@ -32,37 +32,37 @@
      只过滤不处理，如果不满足则返回false，
      
      // file
-     Request::instance()->file($name); 
+     (new Request())->file($name); 
      
      // php://input
-     Request::instance()->input($name); 
+     (new Request())->input($name); 
      
      // xml,参数传递true为转化为数组，默认true
-     Request::instance()->xml(false); 
+     (new Request())->xml(false); 
      
 #### File
     
     // 字符串是否满足通配符,$express为常用的文件搜索通配符
-    File::instance()->match(string $string, string $express);
+    (new File())->match(string $string, string $express);
     
     // 搜索目录下的文件(递归搜索)，支持通配符
-    File::instance()->each(string $dir, string $express);
+    (new File())->each(string $dir, string $express);
     
     // 复制文件
-    File::instance()->copy();
+    (new File())->copy();
     
 #### Variable
 
     下划线、驼峰、帕斯卡名称规则相互转化
      
     //转化成驼峰
-    Variable::instance()->transToCamelCase();
+    (new Variable)->transToCamelCase();
      
     // 转化成帕斯卡
-    Variable::instance()->transToPascal();
+    (new Variable)->transToPascal();
      
     // 转化成下划线
-    Variable::instance()->transToUnderline();
+    (new Variable)->transToUnderline();
     
 #### Pinyin
     
