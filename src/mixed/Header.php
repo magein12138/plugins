@@ -1,5 +1,7 @@
 <?php
 
+namespace Magein\plugins\mixed;
+
 /**
  * 提取头信息
  * Class Header

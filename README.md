@@ -77,3 +77,7 @@
 #### ArrayList
 
    > 请参考：array_list_demo.php
+   
+#### Header
+
+   > 提取http请求中的header中的信息
